@@ -1,4 +1,3 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 
 export default function Form({ handleSubmitFormData }) {
@@ -34,7 +33,7 @@ export default function Form({ handleSubmitFormData }) {
           required
         />
         <input
-          type="text"
+          type="email"
           {...register("email")}
           id=""
           placeholder="Email"
